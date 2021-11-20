@@ -1,0 +1,20 @@
+{
+  "name": "byte-bank",
+  "version": "1.0.0",
+  "description": "\"projeto com finalidade de estudo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagobsb84/Byte_Bank-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tiagobsb84/Byte_Bank-JavaScript/issues"
+  },
+  "homepage": "https://github.com/tiagobsb84/Byte_Bank-JavaScript#readme"
+}
