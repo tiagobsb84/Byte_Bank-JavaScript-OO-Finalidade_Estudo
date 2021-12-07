@@ -1,13 +1,19 @@
+//Classe abstract -> Essa classe passa a ser abstract devido ela ser serve se for herdada pelo filhos e não instaciada. 
 export class Conta {
     constructor(agencia, cliente, saldoInicial) {
+        //com o throw ele lançara um erro no terminal caso tente instaciar essa classe Conta.
+        if (this.constructor == Conta) {
+            throw new Error('Você não deveria instaciar um objeto do tipo conta');
+        }
+
         this._agencia = agencia;
         this._cliente = cliente;
         this._saldo = saldoInicial;
     }
 
-    sacar(valor) {
-        let taxa = 1;
-        return this._sacar(valor, taxa);
+    //metodo abstrato
+    sacar() {
+        throw new Error('Essa conta e abstratar, instaciar a conta');
     }
 
     _sacar(valor, taxa) {

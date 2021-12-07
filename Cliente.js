@@ -7,7 +7,7 @@ export class Cliente {
         this._cpf = cpf;
     }
 
-    get cpf() {
-        return this._cpf;
+    autenticar() {
+        return true;
     }
 }
